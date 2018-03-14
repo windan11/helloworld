@@ -1,0 +1,89 @@
+body{
+	width: 680px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	background: #FBFDFC;
+	color: #A9A9A9;
+}
+h1, footer {
+	font-family: 'EB Garamond', serif;
+}
+
+/*Display quote area and styling of button-------------------*/
+.screen{
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+	text-align: center;
+	padding: 4% 3% 0 3%;
+	top: 20%;
+	left: 5%;
+	width: 80%;
+	height: 44%;
+}
+#quote-btn{
+	font-family: 'Quicksand', sans-serif;
+	padding: 8px;
+	position: absolute;
+	top: 2%;
+	left: 76%;
+	background: #FF3B3f;
+	color: #FFFFFF;
+}
+
+/*styling of the quotation marks-------------------------------*/
+blockquote{
+	font-size: 1.2em;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before{
+	color: #A9A9A9;
+	content: open-quote;
+	font-size: 5em;
+	line-height: 0.1em;
+	margin-left: -0.4em;
+	vertical-align: -0.8em; 
+}
+blockquote:after{
+	color: #A9A9A9;
+	content: close-quote;
+	font-size: 5em;
+	line-height: 0.1em;
+	margin-left: 5.8em;
+	vertical-align: -2.6em; 
+}
+/*text styling of random quotes & author ----------------------*/
+.text h3{
+	background: rgba(202,235,242,0.3); 
+	display: inline;
+	color: rgba(169,169,169,0.9);
+	line-height: 46px;
+}
+.text p{
+	color: #A9A9A9;
+}
+/*social media icon*/
+.social-media{
+	position: absolute;
+	top: 90%;
+	left: 46%;
+}
+.fa{
+	width: 20px;
+	height: 20px;
+	padding: 10px 10px;
+	background: #FF3B3F;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+.fa:hover{
+	color: #A9A9A9;
+	background: #FBFDFC;
+}
+footer{
+	position: absolute;
+	top: 110%;
+	left: 40%;
+}
